@@ -45,7 +45,7 @@ public class ListInterviewCommandTest {
         String output = outputStream.toString().trim();
         System.out.println(output);
         assertTrue(output.contains("Here are the interview invitations:"));
-        assertTrue(output.contains("1. Software Engineer at Google @ 2026-03-25"));
+        assertTrue(output.contains("1. Google - Software Engineer @ 2026-03-25"));
     }
 
 }
